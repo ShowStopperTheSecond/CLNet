@@ -5,7 +5,7 @@ import glob
 from tqdm import tqdm
 import cv2
 import h5py
-from superpoint import SuperPointFrontend
+# from superpoint import SuperPointFrontend
 import torchvision.transforms as transforms
 import torch.nn as nn
 import torch
