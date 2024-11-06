@@ -85,6 +85,6 @@ if __name__ == "__main__":
     listing = glob.glob(search)
 
     for img_path in tqdm(listing):
-    kp, desc = detector.run(img_path)
-    save_path = img_path+'.'+opt.suffix+'.hdf5'
-    write_feature(kp, desc, save_path)
+        kp, desc = detector.run(img_path)
+        save_path = img_path+'.'+opt.suffix+'.hdf5'
+        write_feature(kp, desc, save_path)
