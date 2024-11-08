@@ -2,10 +2,3 @@ big_ben_1
 big_ben_2
 blue_mosque_interior_1
 blue_mosque_interior_2
-brandenburg_gate
-british_museum
-colosseum_exterior
-colosseum_interior
-florence_cathedral_dome_interior_1
-florence_cathedral_dome_interior_2
-florence_cathedral_side
