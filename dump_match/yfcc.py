@@ -33,10 +33,13 @@ if __name__ == "__main__":
         del train_seqs[-1]
     print('train seq len '+str(len(train_seqs)))
 
-    yfcc_tr_va = Dataset(config.raw_data_path+'yfcc100m/', config.dump_dir, 'yfcc-'+config.desc_name+'-val.hdf5', \
-        train_seqs, 'val', config.desc_name, \
-        config.vis_th, 100, None)
 
     yfcc_tr_tr = Dataset(config.raw_data_path+'yfcc100m/', config.dump_dir, 'yfcc-'+config.desc_name+'-train.hdf5', \
         train_seqs, 'train', config.desc_name, \
         config.vis_th, 10000, None)
+
+
+    yfcc_tr_va = Dataset(config.raw_data_path+'yfcc100m/', config.dump_dir, 'yfcc-'+config.desc_name+'-val.hdf5', \
+        train_seqs, 'val', config.desc_name, \
+        config.vis_th, 100, None)
+
